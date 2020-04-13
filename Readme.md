@@ -14,6 +14,18 @@ Every week, we will focus on a particular technology or theme to add to our repe
 - [Week 6 - Spark SQL](week-6-spark-sql.md)
 - [Week 7 - Spark Streaming](week-7-spark-streaming.md)
 
+## Schedule
+Mondays will serve as our QC Assessement day, while on Tuesdays through Fridays we will broadly follow this schedule:
+- 9:00 am: Check-in & review
+- 9:30 am: Guided project demonstrations, lectures, & group discussions
+- 12:00 pm: Lunch
+- 1:00 pm: Stand-up
+- 1:30 pm: Project work & self-study
+
+All times are CST. Your trainer will have office hours from 1pm-5pm over Slack or Zoom chat, and when available can be reached for video conferencing. Guided project and lecture sections will be divided up by regular 5-10 minute breaks and under 30-minute breakout sessions before reconvening for group discussions.
+
+After lunch, the group is encouraged to meet and discuss their progress and blockers regarding their project work or self-study goals before pairing up with one or more fellow associates to work until 5pm.
+
 ## Projects
 This cohort will prioritize individual and group-based project work:
 - [Project 0](project0.md): Begins Week 1, due **Wednesday Week 3**
