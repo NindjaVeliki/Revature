@@ -1,9 +1,22 @@
 # Big Data with Apache Spark
 Welcome to the docs repository for Revature's 200413 Big Data/Spark cohort. Here you will find weekly topics, useful resources, and project requirements.
 
+## Weekly Topics
+Every week, we will focus on a particular technology or theme to add to our repertoire of competencies. These topics will feature heavily in assessments and QC meetings every week, and self-study and practical exploration will be necessary.
+- [Week 1 - Java](Week%201%20-%20Java.md)
+  - [Overview - Java](Overview%20-%20Java.md)
+  - [Overview - Maven](Overview%20-%20Maven.md)
+  - [Overview - Git](Overview%20-%20Git.md)
+- [Week 2 - SQL](Week%202%20-%20SQL.md)
+- [Week 3 - HTTP](Week%203%20-%20HTTP.md)
+- [Week 4 - Big Data](Week%204%20-%20Big%20Data.md)
+- [Week 5 - Apache Spark](Week%205%20-%20Apache%20Spark.md)
+- [Week 6 - Spark SQL](Week%206%20-%20Spark%20SQL.md)
+- [Week 7 - Spark Streaming](Week%207%20-%20Spark%20Streaming.md)
+
 ## Projects
 This cohort will prioritize individual and group-based project work:
-- Project 0: Begins Week 1, due **Wednesday Week 3**
+- [Project 0](Project%200.md): Begins Week 1, due **Wednesday Week 3**
 - Project 1: Begins end of Week 3, due **Friday Week 5**
 - Project 2: Begins Week 6, due **Friday Week 7**
 - Project 3: Begins Week 8, due **Thursday Week 10**
