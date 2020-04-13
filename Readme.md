@@ -52,21 +52,23 @@ To maximize resources and minimize troubleshooting, please perform a clean insta
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 
 ## Installing Git, Java, Maven, and an IDE with Chocolatey (Windows only)
-1) Install [Chocolatey](https://chocolatey.org)
-     1) Open `Powershell` as an administrator.
-     2) Run:
-         >Set-ExecutionPolicy AllSigned
-     3) Agree to all changes
-     4) Run:
-         >Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-2) Open a new `Powershell` window as an administrator and run the following commands:
-3) Install [Git for Windows](https://git-scm.com):
+### Install [Chocolatey](https://chocolatey.org):
+1. Open `Powershell` as an administrator.
+1. Run:
+    >Set-ExecutionPolicy AllSigned
+1. Agree to all changes
+1. Run:
+    >Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+### Install using Chocolatey
+1. Open a new `Powershell` window as an administrator and run the following commands:
+1. Install [Git for Windows](https://git-scm.com):
     >choco install git
-4) Install [OpenJDK 8](https://adoptopenjdk.net/):
+1. Install [OpenJDK 8](https://adoptopenjdk.net/):
     >choco install adoptopenjdk8
-5) Install [Apache Maven](https://maven.apache.org/):
+1. Install [Apache Maven](https://maven.apache.org/):
     >choco install maven
-6) Install an IDE of your choice:
+1. Install an IDE of your choice:
    - Visual Studio Code:
         >choco install vscode
    - Eclipse:
