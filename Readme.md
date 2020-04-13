@@ -34,6 +34,9 @@ The goal of this cohort is to gain professional software and data engineering sk
 To maximize resources and minimize troubleshooting, please perform a clean install or refresh of your operating system. Update your system, [Enable VT-x in BIOS](https://www.wikihow.tech/Enable-VT%E2%80%90x-in-BIOS) if possible, and uninstall all unnecessary programs. Your development environment should be set up for Java, Git, and Maven as soon as possible. In later weeks we will also require PostgreSQL, Docker, SSH, curl, and of course Apache Spark. Refer to this Readme or the links provided in each week's topic and resources document to keep updated on the latest tools and programs needed for project work. You will be responsible for maintaining your environment throughout the program.
 
 ## Tools
+### Installers
+- [Java in Visual Studio Code](https://code.visualstudio.com/docs/languages/java)
+
 ### Package Managers
 - [Chocolatey for Windows](https://chocolatey.org)
 - [Scoop for Windows](https://scoop.sh/)
