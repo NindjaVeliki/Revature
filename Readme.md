@@ -14,17 +14,8 @@ Every week, we will focus on a particular technology or theme to add to our repe
 - [Week 6 - Spark SQL](week-6-spark-sql.md)
 - [Week 7 - Spark Streaming](week-7-spark-streaming.md)
 
-## Schedule
-Mondays will serve as our QC Assessement day, while on Tuesdays through Fridays we will broadly follow this schedule:
-- 9:00 am: Check-in & review
-- 9:30 am: Guided project demonstrations, lectures, & group discussions
-- 12:00 pm: Lunch
-- 1:00 pm: Stand-up
-- 1:30 pm: Project work & self-study
-
-All times are CST. Your trainer will have office hours from 1pm-5pm over Slack or Zoom chat, and when available can be reached for video conferencing. Guided project and lecture sections will be divided up by regular 5-10 minute breaks and under 30-minute breakout sessions before reconvening for group discussions.
-
-After lunch, the group is encouraged to meet and discuss their progress and blockers regarding their project work or self-study goals before pairing up with one or more fellow associates to work until 5pm.
+## Schedule & QC
+[Google Doc](https://docs.google.com/document/d/1uVyBmeeKMbwQUCCiRurbpK1NBbpotbMsukZp2WLXtxk/edit?usp=sharing)
 
 ## Projects
 This cohort will prioritize individual and group-based project work:
@@ -34,13 +25,6 @@ This cohort will prioritize individual and group-based project work:
 - Project 3: Begins Week 8, due **Thursday Week 10**
 
 Each project will require a list of features to be implemented, whether functional or operational, and finishing your MVP (minimum viable product) as early as possible before iterating new features upon the project is highly suggested. Plan ahead, and be sure to reach out to everyone whenever you require guidance (or offer your own to those in need).
-
-## Quality Control
-The goal of this cohort is to gain professional software and data engineering skills and succeed on client project work in the future. To that end, we will conduct regular assessments, meetings, and 1:1 sessions and hold this cohort to a high standard. Associates should be expected to know and understand industry terminology, express themselves clearly and professionaly, and engage with their mentor and each other in a friendly and productive manner.
-
-- Quizzes: Will be held every Monday on RevaturePro
-- 1:1 sessions: Will be held every Monday to discuss personal progress and interpersonal skills
-- QC meetings: Will be held every Monday or Tuesday to discuss topics from the week prior
 
 ## Developmemt Environment
 To maximize resources and minimize troubleshooting, please perform a clean install or refresh of your operating system. Update your system, [Enable VT-x in BIOS](https://www.wikihow.tech/Enable-VT%E2%80%90x-in-BIOS) if possible, and uninstall all unnecessary programs. Your development environment should be set up for Java, Git, and Maven as soon as possible. In later weeks we will also require PostgreSQL, Docker, SSH, curl, and of course Apache Spark. Refer to this Readme or the links provided in each week's topic and resources document to keep updated on the latest tools and programs needed for project work. You will be responsible for maintaining your environment throughout the program.
