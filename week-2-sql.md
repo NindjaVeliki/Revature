@@ -58,8 +58,17 @@
 - [Query Planner](https://www.postgresql.org/docs/12/using-explain.html)
 
 # Articles
+- [Why We Still Use SQL](https://blog.sqlizer.io/posts/sql-43/)
+- [Why Postgres](http://www.craigkerstiens.com/2012/04/30/why-postgres/)
+- [Why Use Postgres, 5 Years Later](http://www.craigkerstiens.com/2017/04/30/why-postgres-five-years-later/)
+- [Postgres as Pub/Sub & Job Server](https://layerci.com/blog/postgres-is-the-answer/)
+- [PostgreSQL Features You May Not Have Tried But Should](https://pgdash.io/blog/postgres-features.html)
 
 # Books
+- [Wikibooks - SQL](https://en.wikibooks.org/wiki/Structured_Query_Language)
+- [Wikibooks - PostgreSQL](https://en.wikibooks.org/wiki/PostgreSQL)
+- [WIkibooks - Relational Database Design](https://en.wikibooks.org/wiki/Relational_Database_Design)
+- [Use The Index, Luke!](https://use-the-index-luke.com/): E-Book on Practical Indexes for Multiple SQL Dialects
 
 # Documentation
 
@@ -82,13 +91,23 @@
 
 # Tutorials
 
+## Normalization
+- [Example of a Step by Step Normalization](https://en.wikipedia.org/wiki/Database_normalization#Example_of_a_step_by_step_normalization)
+- [Description of the Database Normalization Basics](https://docs.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description)
+
 ## ANSI SQL
 - [SQL Bolt](https://sqlbolt.com/)
+- [SQL Teaching](https://www.sqlteaching.com/)
+- [Learn SQL Coming From Excel](https://blog.treasuredata.com/blog/2014/12/05/learn-sql-by-calculating-customer-lifetime-value-part-1/)
+- [Khan Academy (uses SQLite, beware differing syntax!)](https://www.khanacademy.org/computing/computer-programming/sql)
 
 ## PostgreSQL
 - [postgresql.org Tutorial](https://www.postgresql.org/docs/12/tutorial-sql-intro.html)
+- [Postgres Guide](http://www.postgresguide.com/) (check the sidebar to see if this contains the topic you want)
+- [Working With Time in Postgres](http://www.craigkerstiens.com/2017/06/08/working-with-time-in-postgres/)
 
 ## AWS RDS
 - Be careful to only select free tier options when using AWS!
 - [Setting Up for Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_SettingUp.html)
 - [Creating Postgres RDS and Connecting Using pgAdmin](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.PostgreSQL.html)
+
