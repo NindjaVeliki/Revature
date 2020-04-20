@@ -1,10 +1,16 @@
 # Linux
-Linux is a popular choice for a cloud server. There are a variety of open-source distributions each with a large community of hobbyists and professionals supporting them. Unique development tools are widespread and simple to install, use, and maintain. And most distributions are very capable without the resource overhead of a graphical desktop user interface, making the system very lightweight.
+Linux is a popular choice for a server environment. There are a variety of open-source distributions each with a large community of hobbyists and professionals supporting them. Unique development tools are widespread and simple to install, use, and maintain. And most distributions are very capable without the resource overhead of a graphical desktop user interface.
 
-On a headless server (without a graphical interface), the most popular way to interact with a server is through a terminal interface. The most widespread is a shell known as Bash, the Borne Again Shell.
+## Unix Philosophy
+1. Make each program do one thing well. To do a new job, build afresh rather than complicate old programs by adding new “features”.
+2. Expect the output of every program to become the input to another, as yet unknown, program. Don’t clutter output with extraneous information. Avoid stringently columnar or binary input formats. Don’t insist on interactive input.
+3. Design and build software, even operating systems, to be tried early, ideally within weeks. Don’t hesitate to throw away the clumsy parts and rebuild them.
+4. Use tools in preference to unskilled help to lighten a programming task, even if you have to detour to build the tools and expect to throw some of them out after you’ve finished using them.
 
 ## Shell
-A shell is a program that interprets user input. Emulating the look and feel of an old mainframe terminal interface, many shells like Bash provide their users access to several command-line interface (CLI) tools as well as useful conveniences such as auto-completion, a scripting language syntax, and I/O redirection.
+On a headless server (without a graphical interface), the most popular way to interact with a server is through a terminal interface. The most widespread is a shell known as `Bash`, the Borne Again Shell.
+
+A shell is a program that interprets user input. Emulating the look and feel of an old mainframe terminal interface, many shells like `Bash` provide their users access to several command-line interface (CLI) tools as well as useful conveniences such as auto-completion, a scripting language syntax, and I/O redirection.
 
 To use a CLI tool a user types the name of a program followed by any parameters or flags.
 
@@ -15,22 +21,22 @@ Text files saved with the `.sh` extension are commonly used as shell scripts - a
 ```bash
 #!/bin/bash
 
-# Updating and installing packages through yum
+# Updating the system with the yum package manager
 sudo yum update -y
+
+# Uninstalling prior versions of Java
 sudo yum remove -y java
+
+# Installing JDK 8
 sudo yum install -y git java-1.8.0-openjdk-devel
 
 # Adding external yum repository for Maven
 sudo wget http://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo -O /etc/yum.repos.d/epel-apache-maven.repo
 sudo sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
 sudo yum update -y
-sudo yum install -y apache-maven
 
-#Installing Jenkins
-sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
-sudo rpm --import http://pkg.jenkins-ci.org/redhat-stable/jenkins-ci.org.key
-sudo yum install -y jenkins
-sudo service jenkins start
+# Installing Maven
+sudo yum install -y apache-maven
 ```
 
 ## Sudo
@@ -53,6 +59,21 @@ sudo yum remove java
 # To install OpenJDK Java 8
 sudo yum install java-1.8.0-openjdk-devel
 ```
+
+## GNU Core Utilities
+The `coreutils` are a collection of standard Unix tools available on most Linux distributions. They include utility programs for a variety of tasks on the command line. A few examples include:
+- `echo`: print a line of text
+- `cd`: change directory
+- `mkdir`: make directories
+- `rm`: remove files or directories
+- `cp`: copy files and directories
+- `mv`: move (rename) files
+- `ls`: list directory contents
+- `cat`: concatenate and write files
+- `echo`: print output of aonther command to stdout
+- `chmod`: change access permissions
+- `chown`: change file ownership and group
+- `df`: shows disk free space on file systems
 
 ## Man
 The `man` command will seek and display the manual page for most CLI tools installed through a package manager. Used like `sudo`, it takes a CLI command as an argument.

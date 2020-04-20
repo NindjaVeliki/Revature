@@ -33,25 +33,37 @@
     - [Strings](https://www.postgresql.org/docs/12/functions-string.html)
 
 # JDBC
-- Connection
-- Statement
+## Concepts
+- [Java JDBC API](https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/)
+
+## Standard Library
+- [java.sql](https://docs.oracle.com/javase/8/docs/api/java/sql/package-summary.html)
+  - [DriverManager](https://docs.oracle.com/javase/8/docs/api/java/sql/DriverManager.html)
+  - [Connection](https://docs.oracle.com/javase/8/docs/api/java/sql/Connection.html)
+  - [Statement](https://docs.oracle.com/javase/8/docs/api/java/sql/Statement.html)
+    - [PreparedStatement](https://docs.oracle.com/javase/8/docs/api/java/sql/PreparedStatement.html)
+    - [CallableStatement](https://docs.oracle.com/javase/8/docs/api/java/sql/CallableStatement.html)
+  - [ResultSet](https://docs.oracle.com/javase/8/docs/api/java/sql/ResultSet.html)
+  - [SQLException](https://docs.oracle.com/javase/8/docs/api/java/sql/SQLException.html)
 
 # Linux
+## Concepts
 - Unix
 - Red Hat Enterprise Linux (RHEL)
 - Open Source Software
-- Unix philosophy
-- Root[/] vs Home[~]
-- GNU Core Utilities: mkdir, rm, cp, mv, cd, ls, cat, echo, chmod
-- Package management: rpm, yum
-- Environment variables
-- Editors: vim, nano
-- User management: groups, permissions, sudo, chmod, chown
-- Linux file system
-- SSH: private/public key
-- Shell scripting
-- Kernel/scheduler
-- CPU, RAM, Storage
-- Commands: free, watch, vmstat, fallocate, mkswap, swapon
+- Unix philosophy: pipelines
+- Linux file system: Root[/] vs Home[~]
+- User management: groups, permissions
+- Linux Kernel: [scheduler](https://www.kernel.org/doc/html/latest/scheduler/index.html)
+- Hardware: CPU, RAM, Storage
 - Problems: fragmentation, access time, deadlock, starvation, capacity
-- Commands: df, fdisk, sfdisk, cfdisk, lsblk, blkid, mdadm
+
+## Tools
+- GNU Core Utilities: `mkdir`, `rm`, `cp`, `mv`, `cd`, `ls`, `cat`, `echo`, `chmod`, `df`
+- Package management: `rpm`, `yum`
+- `Bash`: Environment variables, shell scripting
+- Editors: `vim`, `nano`
+- `ssh`: private/public key
+- procps-ng proc filesystem utilities: `free`, `watch`, `vmstat`
+- util-linux utilities: fallocate, mkswap, swapon, fdisk, sfdisk, lsblk, blkid
+- Managing RAID: mdadm
