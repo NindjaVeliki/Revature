@@ -86,3 +86,74 @@
   - Dependency Injection
   - Data Access Object
 
+# Questions
+- What is Java?
+- What are the benefits of Java?
+- What is the difference betwwen the JRE, JDK, and JVM?
+- What happens during the compilation process?
+- What is a constructor?
+- What are the primitive datatypes?
+- What is a no args constructor?
+- What is the default ocnstructor?
+- What are the scopes of a variable in java?
+- What are the different access modifiers?
+- What are the different control statements and how are they different?
+- How do you create an array in java?
+- What are varargs?
+- What are packages and imports?
+- What is a static import?
+- What is static?
+- What are Strings?
+- What are some string methods?
+- What is the difference between String, StringBuilder, and StringBuffer?
+- What is the String Pool?
+- What is the difference between the stack and the heap?
+- What is an exception?
+- What is the difference between exception and error?
+- What are the ways one can handle an exception?
+- What are checked exceptions and unchecked exceptions?
+- How many catch blocks can be used in a try catch?
+- What does the finally block do?
+- How do I create a custom exception?
+- What is autoboxing?
+- What is a wrapper class?
+- What is garbage collection?
+- How do I perform garbage collection?
+- what is the difference between final, finally, and finalize?
+- What is the reflection API?
+- What are the pillars of object oriented programming?
+- What is the different between an abstract class and an interface?
+- What is transient? Volatile?
+- What are the differences between FileinputeStream, FileReader, and bufferedReader (and their output counterparts)?
+- What is Scanner?
+- What is serializaiton?
+- How do I serialize an object?
+- What is a marker interface?
+- How do I prevent some data from getting serialized?
+- What is the difference between Collection and Collections
+- What are the various input/delete/get methods for List, Set, and Queue?
+- What is an iterator?
+- What are generics? Why use them?
+- What is the diffence between Comparator and Comparable?
+- What is the purpose of the Object class?
+- What is the difference between  == and .equals?
+- What is the purpose of hashcode?
+- What is the difference between HashMap and Hashtable?
+- How does one iterate through a HashMap?
+- What is multithreading and why do we use it?
+- What are the different ways to create a thread, what is different about them?
+- What are the JVM recognized states of a thread?
+- What are various methods that threads have?
+- What is synchronization?
+- What are the risks of synchronization?
+- What is deadlock, livelock and thread starvation? (Consumer/Producer)
+- What is JUnit?
+- What are the annotations of JUnit?
+- What are the different assert methods of JUnit?
+- How do I create a test case and test suite in JUnit?
+- What is Maven?
+- what is the maven lifecycle?
+- What is the purpose of the pom.xml?
+- What are the purposes of a maven repository among projects?
+- What is the difference between Singleton and Factory?
+- What is the difference between implicit and explicit casting?

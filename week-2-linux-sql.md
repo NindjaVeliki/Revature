@@ -65,5 +65,56 @@
 - Editors: `vim`, `nano`
 - `ssh`: private/public key
 - procps-ng proc filesystem utilities: `free`, `watch`, `vmstat`
-- util-linux utilities: fallocate, mkswap, swapon, fdisk, sfdisk, lsblk, blkid
-- Managing RAID: mdadm
+- util-linux utilities: `fallocate`, `mkswap`, `swapon`, `fdisk`, `sfdisk`, `lsblk`, `blkid`
+- Managing RAID: `mdadm`
+
+# Questions
+## SQL
+- What is SQL?
+- What are its sublanguages?
+- What is multiplicity?
+- What is cardinality?
+- What is a candidate key?
+- What is referential integrity?
+- What are the different constraints of a column?
+- what are the differences between GROUP BY and ORDER BY?
+- What is the difference between IN and EXISTS?
+- What are subqueries?
+- What is the differenece between an aggregate function and a scalar function?
+- What are the different joins in SQL?
+- What are the different set operations in SQL?
+- What is the difference between joins and set operations?
+- What is normalization?
+- What are the requirements for the first three normal forms?
+
+## JDBC
+- What is JDBC?
+- What dependencies are required to connect to an RDBMS?
+- What are the main interfaces of JDBC?
+- In what order are they used?
+- What are the different types of statements?
+- What is SQL Injection?
+- What is a DAO?
+- Describe client-server communication: how does it apply to PostgreSQL?
+- What does a connection URL for PostgreSQL look like?
+- How do you connect to a PostgreSQL server with a client? With Java?
+- Why is connection pooling important?
+
+## Linux
+- What is Unix?
+- What is Linux?
+- What are Linux pipelines?
+- What distribution of Linux are you familiar with? Which distributions are in the same family?
+- What is a shell? Which shell are you familiar with?
+- What is shell scripting?
+- What is a package manager? Which one is used on RHEL?
+- What is grep? man?
+- Explain basic Unix commands for file creation and directory navigation.
+- Where is the home directory located? Where is root?
+- How is the Linux filesystem structured and organized? What are some important directories?
+- What is vim? Nano?
+- How do I change file permissions?
+- How do I create local and global environment variables?
+- What utilities can help you monitor a system's processes? It's filesystem?
+- What is ssh? How can you use it to connect to a Linux system?
+- What is a private and public key?

@@ -3,6 +3,8 @@ Welcome to the docs repository for Revature's 200413 Big Data/Spark cohort. Here
 
 ## Weekly Topics
 Every week, we will focus on a particular technology or theme to add to our repertoire of competencies. These topics will feature heavily in assessments and QC meetings every week, and self-study and practical exploration will be necessary.
+
+Each week may have a list of topic-based questions, which you should be prepared to study and answer in an assessment, whether in a meeting or a quiz. Associates are expected to answer at least 5 on a weekly discussion board, and respond to other posts with suggestions to improve or clarify them.
 - [Week 1 - Java](week-1-java.md)
   - [Overview - Java](overview-java.md)
   - [Overview - Maven](overview-maven.md)
@@ -19,8 +21,8 @@ Every week, we will focus on a particular technology or theme to add to our repe
 - [Week 6 - Spark SQL](week-6-spark-sql.md)
 - [Week 7 - Spark Streaming](week-7-spark-streaming.md)
 
-## Schedule & QC
-[Google Doc](https://docs.google.com/document/d/1uVyBmeeKMbwQUCCiRurbpK1NBbpotbMsukZp2WLXtxk/edit?usp=sharing)
+## Process
+[Google Doc](https://docs.google.com/document/d/1uVyBmeeKMbwQUCCiRurbpK1NBbpotbMsukZp2WLXtxk/edit?usp=sharing) - Contains our standard schedule, QC assessments overview and links, and a list of important contacts.
 
 ## Projects
 This cohort will prioritize individual and group-based project work:
