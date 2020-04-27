@@ -1,8 +1,9 @@
 # Documentation
-- [w3 - Hypertext Transfer Protocol](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
+- [RFC 2616 - Hypertext Transfer Protocol](https://tools.ietf.org/html/rfc2616)
 - [MDN - HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP)
 - [Java EE 7](https://docs.oracle.com/javaee/7/JEETT.pdf)
 - [JSR 369: JavaTM Servlet 4.0 Specification](https://jcp.org/en/jsr/detail?id=369)
+- [Apache Tomcat 9.0](https://tomcat.apache.org/tomcat-9.0-doc/index.html)
 
 # Source Code Examples
 - [Java Servlet API](https://github.com/javaee/servlet-spec)

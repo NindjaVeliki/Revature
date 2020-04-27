@@ -1,18 +1,21 @@
 # Week 3 - HTTP & Servlet API
 ## Concepts
-- HTTP:
-  - Request vs Response
-  - Protocol:
-    - Verbs: Get, Post, Put, Delete, Head, Options, Trace
-    - URI
-    - Version
-    - Headers: Content-Type, Content-Length
-    - Body
+- [HTTP](https://tools.ietf.org/html/rfc2616):
+  - Version HTTP/1.1
+  - [Client-server messaging](https://tools.ietf.org/html/rfc7230#section-2.1)
+  - [Message Syntax](https://tools.ietf.org/html/rfc7230#section-3):
+    - [Request](https://tools.ietf.org/html/rfc2616#section-5):
+      - [Methods](https://tools.ietf.org/html/rfc7231#section-4): Get, Post, Put, Delete, Head, Options, Trace
+      - [URI](https://tools.ietf.org/html/rfc2616#section-5.1.2)
+    - [Response](https://tools.ietf.org/html/rfc2616#section-6):
+      - [Status Code](https://tools.ietf.org/html/rfc2616#section-6.1.1)
+    - [Headers](https://tools.ietf.org/html/rfc7230#section-3.2): [Content-Type](https://tools.ietf.org/html/rfc2616#section-14.17), [Content-Length](https://tools.ietf.org/html/rfc7230#section-3.3.2)
 - Java Platform, Enterprise Edition (Java EE) 7
+  - Static Web Server vs Application Server
   - Layered Architecture: Presentation, Business, Persistence
 - Servlet: 
-  - Servlet interface life-cycle methods
-  - Servlet Container
+  - Servlet Container (Tomcat)
+  - [Servlet interface life-cycle methods](https://docs.oracle.com/javaee/7/api/javax/servlet/Servlet.html)
   - ServletContext vs ServletConfig
   - Forward vs Redirect
   - Session vs Cookie
