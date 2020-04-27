@@ -9,6 +9,7 @@
 - [Java Servlet API](https://github.com/javaee/servlet-spec)
 
 # Tutorials
+- [Java Servlet Technology - JavaEE 7 Tutorials](https://docs.oracle.com/javaee/7/tutorial/servlets.htm)
 - [How To Install Apache Tomcat 8 on CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-centos-7)
 - [Understanding Web Applications, Servlets, and JSPs](https://docs.oracle.com/cd/E13222_01/wls/docs92/webapp/basics.html)
 - [Servlet Programming Tasks](https://docs.oracle.com/cd/E13222_01/wls/docs92/webapp/progservlet.html#wp159442)

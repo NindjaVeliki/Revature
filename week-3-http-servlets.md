@@ -13,10 +13,11 @@
 - Java Platform, Enterprise Edition (Java EE) 7
   - Static Web Server vs Application Server
   - Layered Architecture: Presentation, Business, Persistence
-- Servlet: 
+- [Servlet](https://docs.oracle.com/javaee/7/tutorial/servlets001.htm): 
+  - [Reading/Writing to ServletRequest/ServletResponse](https://docs.oracle.com/javaee/7/tutorial/servlets005.htm)
   - Servlet Container (Tomcat)
-  - [Servlet interface life-cycle methods](https://docs.oracle.com/javaee/7/api/javax/servlet/Servlet.html)
-  - ServletContext vs ServletConfig
+  - [Servlet interface life-cycle](https://docs.oracle.com/javaee/7/tutorial/servlets002.htm)
+  - [ServletContext](https://docs.oracle.com/javaee/7/tutorial/servlets008.htm) vs ServletConfig
   - Forward vs Redirect
   - Session vs Cookie
   - Deployment Descriptor:
